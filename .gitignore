@@ -1,0 +1,35 @@
+# Compiled binaries & build artifacts
+*.bin
+*.elf
+*.hex
+*.o
+*.a
+*.d
+*.eep
+*.srec
+
+# Arduino IDE temporary build directories and files
+build/
+Build/
+arduino_build_*/
+arduino_cache_*/
+*.tmp
+*.bak
+
+# IDE & Editor configurations
+.vscode/
+.idea/
+.vs/
+*.code-workspace
+
+# Environment variables & secrets
+.env
+.env.*
+*.secret
+
+# Operating System temporary and metadata files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
